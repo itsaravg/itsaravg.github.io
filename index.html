@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Arav Goyal — Portfolio</title>
+  <meta name="description" content="Arav Goyal — AI & Coding Enthusiast. Projects, achievements, and contact." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container header-grid">
+      <div class="brand">
+        <h1>Arav Goyal</h1>
+        <p class="tagline">AI & Coding Enthusiast • Problem Solver • Innovator</p>
+      </div>
+
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-nav">☰</button>
+    </div>
+
+    <div id="mobile-nav" class="mobile-nav" hidden>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <h2>Hi — I'm <span class="accent">Arav</span></h2>
+          <h3 class="lead-title">AI & Coding Enthusiast | Problem Solver | Innovator</h3>
+          <p class="lead">I’m driven by curiosity — from solving complex puzzles to developing AI-based ideas. My journey blends creativity, logic, and innovation to build meaningful impact through technology.</p>
+
+          <div class="cta-row">
+            <a class="btn" href="#projects">See Projects</a>
+            <a class="btn ghost" href="#achievements">My Achievements</a>
+          </div>
+
+          <div class="quick-facts">
+            <span>JEE aspirant</span>
+            <span>Rubik’s cuber</span>
+            <span>Chess • Swimming • Basketball</span>
+          </div>
+        </div>
+
+        <aside class="hero-card" aria-hidden="true">
+          <h4>Quick facts</h4>
+          <ul>
+            <li>Pixel Run — game / project</li>
+            <li>Abacus L1–L4 | ITHO Gold</li>
+            <li>Breathless challenge • Card towers • Domino chains</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>I enjoy solving problems that require both creativity and structure — whether that’s an algorithm, a puzzle, or a project. My learning style is hands-on: I build, iterate, and reflect. I apply the same persistence I used to learn complex songs and advanced cubes to my coding and AI experiments.</p>
+      </div>
+    </section>
+
+    <!-- Projects (single-page with modal detail) -->
+    <section id="projects" class="section dark-section">
+      <div class="container">
+        <h2>Projects</h2>
+        <p class="muted">Below is a highlight. Click <strong>View</strong> to see details.</p>
+
+        <div class="grid projects-grid">
+          <article class="card project-card" data-project="pixel-run">
+            <h3>🎮 Pixel Run</h3>
+            <p>Fast-paced pixel-art runner with procedurally generated obstacles and score tracking. Built to explore game loops and lightweight physics logic.</p>
+            <div class="card-actions">
+              <button class="btn-sm view-btn" data-project="pixel-run">View</button>
+            </div>
+          </article>
+
+          <!-- Placeholder cards: add more projects later -->
+          <article class="card">
+            <h3>📘 Study Planner (coming)</h3>
+            <p>Planner app to manage daily JEE chapter targets and revision scheduling.</p>
+          </article>
+
+          <article class="card">
+            <h3>⚙️ Portfolio Generator (coming)</h3>
+            <p>Generator tool to quickly scaffold personal portfolio pages from templates.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements -->
+    <section id="achievements" class="section">
+      <div class="container">
+        <h2>Achievements & Cognitive Skills</h2>
+
+        <div class="ach-grid">
+          <div class="ach-card">
+            <h3>🧩 Rubik’s Cubes Collection & Solving</h3>
+            <p>Own over 12 Rubik’s cubes, including mirror, ghost, and pyramid. Self-taught solving improved spatial reasoning, patience, and problem-solving speed.</p>
+            <p class="muted">Analytical skills & perseverance — valuable for AI & Data Science.</p>
+          </div>
+
+          <div class="ach-card">
+            <h3>🧠 Abacus — Level 1–4</h3>
+            <p>Completed four levels of abacus training in mental arithmetic, improving focus, memory and computational accuracy.</p>
+          </div>
+
+          <div class="ach-card">
+            <h3>🥇 ITHO Gold Medalist</h3>
+            <p>Gold Medal at the International Talent Hunt Olympiad — shows strong conceptual grasp and performance under pressure.</p>
+          </div>
+
+          <div class="ach-card">
+            <h3>♟️ Chess & Sudoku</h3>
+            <p>Regular practice to sharpen strategy and pattern recognition — strengthens planning and structured decision-making.</p>
+          </div>
+
+          <div class="ach-card">
+            <h3>🎵 Breathless Challenge</h3>
+            <p>Learned "Breathless" (Shankar Mahadevan) end-to-end after being told it was impossible — a testament to determination and focus.</p>
+          </div>
+
+          <div class="ach-card">
+            <h3>🏗️ Card Towers & Domino Chains</h3>
+            <p>Built stable card towers and domino patterns — exercises in precision, patience and planning.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sports -->
+    <section id="sports" class="section dark-section">
+      <div class="container">
+        <h2>Sports & Physical Achievements</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>🏀 Basketball</h3>
+            <p>Medal winner — teamwork, leadership and competitive spirit.</p>
+          </div>
+          <div class="card">
+            <h3>🏊‍♂️ Swimming</h3>
+            <p>Enthusiast — helps balance discipline and endurance with mental work.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>If you’d like to get in touch, email me at <a id="email-link" href="mailto:arav012g@gmail.com">arav012g@gmail.com</a> or connect on LinkedIn.</p>
+
+        <div class="socials">
+          <a class="social" id="linkedin-link" href="https://www.linkedin.com/in/arav012g/" target="_blank" rel="noopener">LinkedIn</a>
+          <!-- GitHub purposely omitted per your request -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Arav Goyal • Built with curiosity & code.</p>
+      <p class="muted small-note">Press <kbd>P</kbd> to jump to Projects.</p>
+    </div>
+  </footer>
+
+  <!-- Project Detail Modal (single-page) -->
+  <div id="project-modal" class="modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-content" role="document">
+      <button class="modal-close" aria-label="Close project details">✕</button>
+      <article id="modal-body">
+        <h2 id="modal-title">Project</h2>
+        <p id="modal-short" class="muted"></p>
+
+        <h3>Overview</h3>
+        <p id="modal-overview"></p>
+
+        <h3>Tech / Skills</h3>
+        <ul id="modal-tech"></ul>
+
+        <h3>How I built it</h3>
+        <p id="modal-build"></p>
+
+        <div class="modal-actions">
+          <a id="modal-live" class="btn" href="#" target="_blank" rel="noopener">Live / Demo</a>
+          <a id="modal-code" class="btn ghost" href="#" target="_blank" rel="noopener">Code (Repo)</a>
+        </div>
+      </article>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
